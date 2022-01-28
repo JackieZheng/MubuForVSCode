@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2020-08-18 10:07:57
- * @LastEditTime: 2021-05-20 15:38:08
+ * @LastEditTime: 2021-05-20 17:05:54
  * @LastEditors: updater
  * @Description: In User Settings Edit
  * @FilePath: \MubuForVSCode\extension.js
@@ -83,7 +83,7 @@ function activate (context) {
 									</style>
 								</head>
 								<body>
-									<iframe src="https://mubu.com/help/?appVersion=default"/>
+									<iframe id="iframe" src="https://mubu.com/app"/>
 								</body>
 								</html>`;
 
